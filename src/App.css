@@ -1,0 +1,136 @@
+.videobar{
+  border: 2px solid black;
+}
+.heading{
+  left: 110px;
+  top: 67px;
+  position: absolute;
+  margin: 21px auto;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 70px;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 5px;
+  text-align: center;
+  color: transparent;
+  margin: 40px auto;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 70px;
+  font-weight: bold;
+  color: #121212;
+  text-align: center;
+  letter-spacing: 5px;
+  margin: 40px auto;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 70px;
+  font-weight: bold;
+  color: #dfdfdf;
+  text-align: center;
+  letter-spacing: 5px;
+  text-shadow: 4px 4px 0px #000, 
+      -4px 0 0px #000,
+      7px 4px 0 #fff;
+ }
+h1, h2, h3{
+  color: black;
+  text-shadow: 0px 1px 0px #000,3px 2px 0 #fff;
+}
+.headingBar {
+  margin-top: -21px;
+  background-image: url('https://png.pngtree.com/thumb_back/fh260/back_our/20190625/ourmid/pngtree-simple-watercolor-small-fresh-company-office-ppt-background-image_260237.jpg');
+  background-repeat: no-repeat;
+  background-size: cover; /* Ensure the background image covers the entire element */
+  height: 310px;
+  background-color: #3a073a;
+}
+
+body{ 
+  background: rgb(167,217,218);
+  background: linear-gradient(38deg, rgba(167,217,218,1) 0%, rgba(249,211,200,1) 98%);
+  height: auto;
+  margin: 0;
+  margin-bottom: 10px;
+}
+li{
+  margin: 10px 0px;
+ 
+}
+.toggleButton{
+  width: 100% !important;
+  cursor: pointer;
+  
+}
+.trackName, .toggleButton{
+  background-color: white;
+  cursor: pointer;
+  border: none;
+  padding: 10px 100px;
+  border-radius: 10px;
+  font-family: cursive;
+  font-size: 18px;
+  color: #a7d9da;
+  width: 117%;
+
+}
+.trackName:hover, .toggleButton:hover{
+  border: 2px solid #2fc4c7;
+  background-color: #e4d5cd;
+  color: #2fc4c7;
+}
+.trackSection{
+  float: left;
+  margin-right: 44px;
+}
+.allSection{
+  margin: 0px 5%;
+  display: flex;
+  justify-content: space-around;
+}
+img{
+  height: 290px;
+  width: 100%;
+}
+.videoDivBar{
+  width: 64vh;
+  height: auto;
+  overflow: hidden;
+}
+.buttonFlex{
+  display: flex;
+  gap: 3px;
+}
+.icon{
+  text-align: center;
+  width: 15%;
+  padding: 0px 4px;
+}
+
+@media screen and (max-width: 1200px) {
+  body{
+    height: auto;
+  }
+  .heading {
+    left: 0px;
+    font-size: 38px;
+    /* color: #2B86C5; */
+  }
+
+  .allSection {
+    flex-direction: column; /* Stack elements vertically on smaller screens */
+  }
+
+  .trackSection {
+    float: none;
+    margin-right: 0;
+  }
+  .trackName {
+    padding: 10px 0px;
+
+   width: 100%;
+}
+.videoDivBar{
+
+  width: 95%;
+}
+
+}
