@@ -1,22 +1,20 @@
 import React, { useState, useEffect } from 'react';
 import MediaPlayer from './components/MediaPlayer';
 import track1 from './video/Rec 2022-10-20 10;18;20.mp4';
-// import track2 from './video/Rec 2022-11-09 14;08;34.mp4';
-// import track3 from './video/Rec 2022-11-11 15;34;09.mp4';
-// import track4 from './video/Rec 2022-11-17 16;14;29.mp4';
-// import track5 from './video/Rec 2023-10-10 12;16;16.mp4';
 import '../src/App.css'
 
+const track2 = 'https://media.istockphoto.com/id/1460960983/video/rain-falling-on-the-window-and-flowing-raindrops-the-soothing-sound-of-rain-and-candles.mp4?s=mp4-640x640-is&k=20&c=vKONvL6GN2zFnbAMCz0lNpoup04nrCSNyOJJTbu1SrY=';
+const track3 = 'https://media.istockphoto.com/id/127737092/video/blue-tit-perching-on-the-branch.mp4?s=mp4-640x640-is&k=20&c=q20fOs37zjOvrgkZvck_34-G2B930EA4_rUjvT57fo8=';
 function App() {
   const [isPlaying, setIsPlaying] = useState(false);
   const [currentTrack, setCurrentTrack] = useState(null);
 
   const tracks = [
     { title: "Recording Track 1", source: track1 },
-    { title: "Recording Track 2", source: track1 },
-    { title: "Recording Track 3", source: track1 },
+    { title: "Recording Track 2", source: track2 },
+    { title: "Recording Track 3", source: track3 },
     { title: "Recording Track 4", source: track1 },
-    { title: "Recording Track 5", source: track1 },
+    { title: "Recording Track 5", source: track2 },
   ];
 
   useEffect(() => {
